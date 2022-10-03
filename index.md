@@ -1,8 +1,11 @@
 ## Welcome to the Matrix
 
 *(I call my mod-versum 'MATRIX')*
+---
 
 
 
-
-> SNOW
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
