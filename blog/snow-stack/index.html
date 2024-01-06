@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="../../_app/immutable/assets/0.Tyutb75u.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../_app/immutable/entry/start.kAaoL58w.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.k-kUyWhY.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.o2ApK3lN.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/app.dISBh4t_.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/preload-helper.0HuHagjb.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/index.3eaemhlc.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/0.IGhIPfNl.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/5.5rflJSUm.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <header class="svelte-1mc0ues" data-svelte-h="svelte-5xqynq"><a href="/" class="svelte-1mc0ues">schnow265</a> <nav class="svelte-1mc0ues"><ul class="svelte-1mc0ues"><li><a href="/blog" class="svelte-1mc0ues">Blog</a></li>  <li><a href="https://github.com/schnow265" target="_blank" class="svelte-1mc0ues">GitHub</a></li></ul></nav> </header> <main><article><h1>The SNOW-Stack v1.0</h1> <p>Commited @ 2024-01-06</p> <p data-svelte-h="svelte-8u6w2x">The SNOW-Stack will be my web development stack for the next few years. But what is included? A full TLDR is on the bottom.</p> <h2 data-svelte-h="svelte-1vcyauh">Long Overview, with explanations</h2> <p data-svelte-h="svelte-1dhiuup">The SNOW-Stack is fully self-hostable. This is the main reason why I made this Stack the way it is.</p> <h3 data-svelte-h="svelte-45b11a">Technologies</h3> <p data-svelte-h="svelte-5fiqy1">As my main OS of choice: <a href="https://fedoraproject.org" rel="nofollow">Fedora</a>. But if I ever need to use Windows, I just make verything with WSL with <a href="https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/" rel="nofollow">systemD</a>.
+But there are other things to mention, like programming languages and tools.</p> <h4 data-svelte-h="svelte-160lbyc">Programming languages</h4> <ul data-svelte-h="svelte-a566aq"><li><a href="https://www.typescriptlang.org/" rel="nofollow">TypeScript</a></li> <li><a href="https://www.markdownguide.org/cheat-sheet/" rel="nofollow">Markdown</a></li> <li>Java<ul><li><a href="https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu" rel="nofollow">Zulu 17, <em>without</em> JavaFX</a></li> <li><a href="https://www.azul.com/downloads/?version=java-17-lts&package=jdk-fx#zulu" rel="nofollow">Zulu 17, <em>with</em> JavaFX</a></li> <li><a href="https://adoptium.net/temurin/releases/?package=jdk&version=17" rel="nofollow">Adoptium Temurin 17</a></li> <li><a href="https://github.com/JetBrains/JetBrainsRuntime" rel="nofollow">JBR (JetBrains Runtime)</a> for HotSwapping Java Code.</li></ul></li></ul> <h4 data-svelte-h="svelte-isqglm">Software &amp; Tools</h4> <ul data-svelte-h="svelte-uu701t"><li><a href="https://docs.docker.com/engine/install/" rel="nofollow">Docker Engine</a> (for designing &amp; solving imaginary scaling problems)</li> <li><a href="https://nodejs.org/en" rel="nofollow">nodejs</a> for writing Frontends.</li> <li><a href="https://git-scm.com" rel="nofollow">git</a> as VCS. Currently using GitHub, but will later use a self-hosted GitLab, when I have my own domain.</li> <li><a href="https://code.visualstudio.com/" rel="nofollow">Visual Studio Code</a> as my main editor. Yes, even for Java. I initialy came from IntelliJ, but I love VSCode more for working with WSL</li></ul> <h5 data-svelte-h="svelte-38arz1">VSCode integrations</h5> <ul data-svelte-h="svelte-28ytpg"><li>WSL integration</li> <li><a href="https://containers.dev/" rel="nofollow">DevContainers</a> for a quick &amp; easy development environment.</li> <li>Tunnels. Oh god I love tunnels. I use them as an alternative for ssh.</li></ul> <h3 data-svelte-h="svelte-1uav6j4">Frontend</h3> <ul data-svelte-h="svelte-cc4ahj"><li><a href="https://svelte.dev/" rel="nofollow">Svelte</a>. Just Svelte. I like it. It’s better than Angular. Also this site is <a href="https://github.com/schnow265/schnow265.github.io" rel="nofollow">built with Svelte</a></li></ul> <h3 data-svelte-h="svelte-1v79hm6">Full Backend (REST/GraphQL API’s)</h3> <ul data-svelte-h="svelte-hv6oqj"><li><a href="https://spring.io/" rel="nofollow">Spring</a>. (I told you that I would need Java.)</li></ul> <h3 data-svelte-h="svelte-1l483vw">Databases</h3> <ul data-svelte-h="svelte-clojx4"><li><a href="https://pocketbase.io/" rel="nofollow">pocketbase</a> (for User Authentication &amp; basic storage)</li> <li><a href="https://www.postgresql.org/" rel="nofollow">postgres</a> (If pocketbase isn’t enough)</li></ul> <h2 data-svelte-h="svelte-1kd00o7">TL;DR</h2> <p data-svelte-h="svelte-15vwfm8">So, you want a quick summary of the SNOW-Stack v1.0? Here it is:</p> <ul data-svelte-h="svelte-1whdl51"><li>Operating System<ul><li><a href="https://fedoraproject.org" rel="nofollow">Fedora</a></li> <li>Windows, WSL only with <a href="https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/" rel="nofollow">systemD</a> and in host network mode.</li></ul></li> <li>Languages<ul><li><a href="https://www.typescriptlang.org/" rel="nofollow">TypeScript</a></li> <li><a href="https://www.markdownguide.org/cheat-sheet/" rel="nofollow">Markdown</a></li> <li>Java<ul><li><a href="https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu" rel="nofollow">Zulu 17, <em>without</em> JavaFX</a></li> <li><a href="https://www.azul.com/downloads/?version=java-17-lts&package=jdk-fx#zulu" rel="nofollow">Zulu 17, <em>with</em> JavaFX</a></li> <li><a href="https://adoptium.net/temurin/releases/?package=jdk&version=17" rel="nofollow">Adoptium Temurin 17</a></li> <li><a href="https://github.com/JetBrains/JetBrainsRuntime" rel="nofollow">JBR (JetBrains Runtime)</a> for HotSwapping Java Code.</li></ul></li></ul></li> <li>Software &amp; Tools<ul><li><a href="https://docs.docker.com/engine/install/" rel="nofollow">Docker Engine</a></li> <li><a href="https://nodejs.org/en" rel="nofollow">nodejs</a></li> <li><a href="https://git-scm.com" rel="nofollow">git</a></li> <li><a href="https://code.visualstudio.com/" rel="nofollow">Visual Studio Code</a><ul><li>WSL</li> <li><a href="https://containers.dev/" rel="nofollow">DevContainers</a></li> <li>Remote Tunnels</li></ul></li></ul></li> <li>Frontend<ul><li><a href="https://svelte.dev/" rel="nofollow">Svelte</a></li></ul></li> <li>Backends with RestAPI and GraphQL Support<ul><li><a href="https://spring.io/" rel="nofollow">Spring</a></li></ul></li> <li>Databses<ul><li><a href="https://pocketbase.io/" rel="nofollow">pocketbase</a></li> <li><a href="https://www.postgresql.org/" rel="nofollow">postgres</a></li></ul></li></ul></article></main> 
+			
+			<script>
+				{
+					__sveltekit_1vwk1em = {
+						base: new URL("../..", location).pathname.slice(0, -1),
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../../_app/immutable/entry/start.kAaoL58w.js"),
+						import("../../_app/immutable/entry/app.dISBh4t_.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
