@@ -1,5 +1,5 @@
 ---
-title: I am back. And I brought Fonts.
+title: I am back. And I brought Fonts. And a redesign.
 date: '2024-01-06'
 ---
 
@@ -18,3 +18,7 @@ I have no idea. Also I have now more time for coding.
 ## What is with the Fonts?
 
 I developed an obsession with fonts. So expect to see *a few* of them in my next projects.
+
+## Redesign?
+
+Previously I used a prebuilt Ruby on Rails Theme. I didn't like it. So I learned Svelte. And this got made.
