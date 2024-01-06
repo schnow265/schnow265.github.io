@@ -6,9 +6,9 @@
 			<li>
 				<a href="/blog">Blog</a>
 			</li>
-			<!-- <li>
+			<li>
 				<a href="/contact">Contact</a>
-			</li> -->
+			</li>
 			<li>
 				<a href="https://github.com/schnow265" target="_blank">GitHub</a>
 			</li>
@@ -22,10 +22,11 @@
 
 	header {
 		padding: 1rem;
-		background: #20857c;
+		background: #4b6971;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		color: #e6f4f1;
 	}
 
 	nav {

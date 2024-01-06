@@ -55,8 +55,7 @@ But there are other things to mention, like programming languages and tools.
 So, you want a quick summary of the SNOW-Stack v1.0? Here it is:
 
 - Operating System
-  - [Fedora](https://fedoraproject.org)
-  - Windows, WSL only with [systemD](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/) and in host network mode.
+  - [Fedora](https://fedoraproject.org) or [Windows](https://www.deviantart.com/markusssss/art/Tux-VS-Windows-204059998), WSL only with [systemD](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/) and in host network mode.
 - Languages
   - [TypeScript](https://www.typescriptlang.org/)
   - [Markdown](https://www.markdownguide.org/cheat-sheet/)

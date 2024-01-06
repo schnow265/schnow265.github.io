@@ -1,4 +1,5 @@
-Header                  #20857c
+Header                  #4b6971
+Header Text             #e6f4f1
 Background              #f1f1e6
 Errors                  #987b86
 Card Backgrounds        #c5cec2
