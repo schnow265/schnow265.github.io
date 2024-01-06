@@ -7,11 +7,11 @@
 <ul>
 	{#each data.posts as post}
 		<li>
-			<h2>
+			<h3>
 				<a href="/blog/{post.path}">
 					{post.meta.title}
 				</a>
-			</h2>
+			</h3>
 			Published {post.meta.date}
 		</li>
 	{/each}

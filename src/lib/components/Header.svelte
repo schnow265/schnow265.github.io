@@ -18,12 +18,18 @@
 
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 	header {
 		padding: 1rem;
-		background: lightskyblue;
+		background: #20857c;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+	}
+
+	nav {
+		font-family: 'IBM Plex Mono', monospace;
 	}
 
 	ul {
