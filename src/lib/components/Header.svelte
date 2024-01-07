@@ -29,7 +29,7 @@
 			</li>
 			<li>|</li>
 			<li>
-				<a href="/snow-stack">SNOW-Stack</a>
+				<a href="/docs">Docs</a>
 			</li>
 			<li>|</li>
 			<li>
