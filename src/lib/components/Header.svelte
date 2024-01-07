@@ -24,6 +24,9 @@
 				<a href="/blog">Blog</a>
 			</li>
 			<li>
+				<a href="/projects">My Projects</a>
+			</li>
+			<li>
 				<a href="/contact">Contact</a>
 			</li>
 			<li>

@@ -2,14 +2,7 @@
 	export let data;
 </script>
 
-<h1>Welcome</h1>
-
-Please excuse this broken mess of a Svelte page. I am pretty new to this. And finding good fonts.
-Don't tell me that my choices are bad. I will find this out soon enough, if it's really bad.
-
-<hr/>
-
-<h1>My Projects</h1>
+<h1>Projects</h1>
 
 <ul>
 	{#each data.projects as entry}
@@ -21,24 +14,6 @@ Don't tell me that my choices are bad. I will find this out soon enough, if it's
 				<p style="font-size: x-small;">{entry.meta.slug}</p>
 			</h3>
 			<h4>{entry.meta.date}</h4>
-		</li>
-	{/each}
-</ul>
-
-
-<hr/>
-
-<h1>The Blog. Right here.</h1>
-
-<ul>
-	{#each data.posts as post}
-		<li>
-			<h3>
-				<a href="/blog/{post.path}">
-					{post.meta.title}
-				</a>
-			</h3>
-			<h4>{post.meta.date}</h4>
 		</li>
 	{/each}
 </ul>

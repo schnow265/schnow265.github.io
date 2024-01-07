@@ -10,7 +10,8 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write . && git add . && git commit -m 'prettyfied unpretty code to make it pretty.'",
-		"deploy": "cp src/routes/+error.svelte static/.github/404.html && vite build && gh-pages -d build -t true && rm -rf build/"
+		"deploy": "cp src/routes/+error.svelte static/.github/404.html && vite build && gh-pages -d build -t true && rm -rf build/",
+		"git-conf": "git config user.name 'schnow265' && git config user.email 'thesnowbox@iclouud.com'"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
