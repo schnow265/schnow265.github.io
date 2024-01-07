@@ -1,5 +1,5 @@
 <header>
-	<a href="/">schnow265</a>
+	<a href="/" style="@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap'); font-family: 'Long Cang', cursive; font-size: x-large;">schnow265</a>
 
 	<nav>
 		<ul>
@@ -19,13 +19,10 @@
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 
 	a {
 		text-decoration: none;
 		color: inherit;
-		font-family: 'Long Cang', cursive;
-		font-size: x-large;
 	} 
 
 	header {
