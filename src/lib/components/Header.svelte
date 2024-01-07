@@ -1,9 +1,28 @@
+<script>
+	let getRandomFont = () => {
+		const fontFamilies = [
+			"'Long Cang', cursive",
+			"'Wavefont', system-ui",
+			"'Alex Brush', cursive",
+			"'Blaka Ink', system-ui",
+			"'Cairo Play', sans-serif",
+			"'JetBrains Mono', monospace",
+			"'Pacifico', cursive",
+		];
+
+		const randomIndex = Math.floor(Math.random() * fontFamilies.length);
+		return fontFamilies[randomIndex];
+	};
+</script>
+
+
 <header>
 	<a
+		class="random-font"
 		href="/"
-		style="@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap'); font-family: 'Long Cang', cursive; font-size: x-large;"
-		>schnow265</a
-	>
+		style="font-family: {getRandomFont()}"
+		
+		>schnow265</a>
 
 	<nav>
 		<ul>
@@ -18,10 +37,19 @@
 			</li>
 		</ul>
 	</nav>
+
+	<!-- <p style=" font-family: ;">(c) 2024 @ schnow265</p> -->
 </header>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Wavefont&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Blaka+Ink&family=Cairo+Play&family=JetBrains+Mono&family=Pacifico&display=swap');
+
+	.random-font {
+		font-size: x-large;
+	}
 
 	a {
 		text-decoration: none;
