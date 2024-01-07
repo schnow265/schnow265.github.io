@@ -1,1 +1,1 @@
-If you truly want to contact me, then you can contact me at the email listed in my GitHub Profile.
+you really don't want to do it.

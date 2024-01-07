@@ -7,7 +7,7 @@
 Please excuse this broken mess of a Svelte page. I am pretty new to this. And finding good fonts.
 Don't tell me that my choices are bad. I will find this out soon enough, if it's really bad.
 
-<hr/>
+<hr />
 
 <h1>My Projects</h1>
 
@@ -25,8 +25,7 @@ Don't tell me that my choices are bad. I will find this out soon enough, if it's
 	{/each}
 </ul>
 
-
-<hr/>
+<hr />
 
 <h1>The Blog. Right here.</h1>
 

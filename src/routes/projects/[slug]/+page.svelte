@@ -7,7 +7,7 @@
 	<h5>
 		<p>
 			Created @ {data.date}
-			<br>
+			<br />
 			Source @ {data.source}
 		</p>
 	</h5>

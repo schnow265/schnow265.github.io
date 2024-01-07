@@ -23,12 +23,19 @@
 			<li>
 				<a href="/blog">Blog</a>
 			</li>
+			<li>|</li>
 			<li>
 				<a href="/projects">My Projects</a>
 			</li>
+			<li>|</li>
+			<li>
+				<a href="/snow-stack">SNOW-Stack</a>
+			</li>
+			<li>|</li>
 			<li>
 				<a href="/contact">Contact</a>
 			</li>
+			<li>|</li>
 			<li>
 				<a href="https://github.com/schnow265" target="_blank">GitHub</a>
 			</li>
