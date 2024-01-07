@@ -29,7 +29,7 @@
 			</li>
 			<li>|</li>
 			<li>
-				<a href="/docs">Docs</a>
+				<a href="https://schnow265.github.io/docs">Docs</a>
 			</li>
 			<li>|</li>
 			<li>

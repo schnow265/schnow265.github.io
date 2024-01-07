@@ -21,3 +21,7 @@ I really hate it when I was researching a guide on how I will host my docs using
 7. Now run `npm run deploy`. You should now have a second branch called "gh-pages", which includes the static website build.
 8. If you see "Branch gh-pages has recent pushes a moment ago" on your repo, please go to `Settings -> Pages` and change the branch to gh-pages.
 9. Congrats! You now can host your static site on GH Pages!
+
+## Now a little word at the end
+
+You **can not** link to a subsite in svelte without it existing. That means _if_ you want to link to a page, like docs, from your main page you should lik to it over the Domain, like so: ``https://{username of your gh account}.github.io/{your base URL you want to link to}``.
