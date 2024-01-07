@@ -19,8 +19,8 @@ But there are other things to mention, like programming languages and tools.
 - [TypeScript](https://www.typescriptlang.org/)
 - [Markdown](https://www.markdownguide.org/cheat-sheet/)
 - Java
-  - [Zulu 17, *without* JavaFX](https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu)
-  - [Zulu 17, *with* JavaFX](https://www.azul.com/downloads/?version=java-17-lts&package=jdk-fx#zulu)
+  - [Zulu 17, _without_ JavaFX](https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu)
+  - [Zulu 17, _with_ JavaFX](https://www.azul.com/downloads/?version=java-17-lts&package=jdk-fx#zulu)
   - [Adoptium Temurin 17](https://adoptium.net/temurin/releases/?package=jdk&version=17)
   - [JBR (JetBrains Runtime)](https://github.com/JetBrains/JetBrainsRuntime) for HotSwapping Java Code.
 
@@ -60,8 +60,8 @@ So, you want a quick summary of the SNOW-Stack v1.0? Here it is:
   - [TypeScript](https://www.typescriptlang.org/)
   - [Markdown](https://www.markdownguide.org/cheat-sheet/)
   - Java
-    - [Zulu 17, *without* JavaFX](https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu)
-    - [Zulu 17, *with* JavaFX](https://www.azul.com/downloads/?version=java-17-lts&package=jdk-fx#zulu)
+    - [Zulu 17, _without_ JavaFX](https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu)
+    - [Zulu 17, _with_ JavaFX](https://www.azul.com/downloads/?version=java-17-lts&package=jdk-fx#zulu)
     - [Adoptium Temurin 17](https://adoptium.net/temurin/releases/?package=jdk&version=17)
     - [JBR (JetBrains Runtime)](https://github.com/JetBrains/JetBrainsRuntime) for HotSwapping Java Code.
 - Software & Tools
