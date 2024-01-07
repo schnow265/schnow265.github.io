@@ -9,7 +9,7 @@ Don't tell me that my choices are bad. I will find this out soon enough, if it's
 
 <hr />
 
-<h1>Welcome to the blog.</h1>
+<h1>The Blog. Right here.</h1>
 Yes, it's not organized by dates.
 
 <ul>

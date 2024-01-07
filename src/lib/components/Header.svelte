@@ -7,7 +7,7 @@
 			"'Blaka Ink', system-ui",
 			"'Cairo Play', sans-serif",
 			"'JetBrains Mono', monospace",
-			"'Pacifico', cursive",
+			"'Pacifico', cursive"
 		];
 
 		const randomIndex = Math.floor(Math.random() * fontFamilies.length);
@@ -15,14 +15,8 @@
 	};
 </script>
 
-
 <header>
-	<a
-		class="random-font"
-		href="/"
-		style="font-family: {getRandomFont()}"
-		
-		>schnow265</a>
+	<a class="random-font" href="/" style="font-family: {getRandomFont()}">schnow265</a>
 
 	<nav>
 		<ul>
