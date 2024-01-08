@@ -5,7 +5,7 @@ date: '2024-01-06'
 
 schnow265 is back from hibernation. The bear is awake. And he is hungry for knowledge.
 
-## What comes next?
+## What comes next
 
 You can exept more updates. Also I have a new mod in planning, which could work out if I learn mixins, because I need to `@Override` some methods.
 
