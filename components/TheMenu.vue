@@ -7,6 +7,9 @@ import {
     MenubarSeparator,
     MenubarShortcut,
     MenubarTrigger,
+    MenubarSubContent,
+    MenubarSub,
+    MenubarSubTrigger
 } from '@/components/ui/menubar'
 </script>
 
@@ -18,6 +21,13 @@ import {
                 <MenubarContent>
                     <MenubarItem @click="navigateTo('/')">Home</MenubarItem>
                     <MenubarItem @click="navigateTo('/about')">About</MenubarItem>
+                    <MenubarSeparator></MenubarSeparator>
+                    <MenubarSub>
+                        <MenubarSubTrigger>Linux</MenubarSubTrigger>
+                        <MenubarSubContent>
+                            <MenubarItem @click="navigateTo('/linux/fedora')">Fedora</MenubarItem>
+                        </MenubarSubContent>
+                    </MenubarSub>
                 </MenubarContent>
             </MenubarMenu>
 

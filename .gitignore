@@ -25,3 +25,4 @@ logs
 
 *-lock.*
 .data/
+*.nc
