@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
-  modules: ["@nuxt/content", "@nuxt/ui", "@pinia/nuxt", "@nuxt/fonts"],
+  modules: ["@nuxt/content", "@nuxt/ui", "@nuxt/fonts"],
   link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
   typescript: { strict: false },
 });
