@@ -38,13 +38,28 @@ import {
             </MenubarMenu>
 
             <MenubarMenu>
-                <MenubarTrigger>About</MenubarTrigger>
+                <MenubarTrigger>My Links</MenubarTrigger>
                 <MenubarContent>
                     <MenubarItem @click="navigateTo('https://github.com/schnow265', {
                         open: {
                             target: '_blank',
                         }
-                    })">schnow265 - GitHub</MenubarItem>
+                    })">GitHub</MenubarItem>
+                    <MenubarItem @click="navigateTo('https://reddit.com/u/TamSchnow/', {
+                        open: {
+                            target: '_blank',
+                        }
+                    })">Reddit</MenubarItem>
+                    <MenubarItem @click="navigateTo('https://mastodon.social/@schnow265', {
+                        open: {
+                            target: '_blank'
+                        }
+                    })">Mastodon @ mastodon.social</MenubarItem>
+                    <MenubarItem @click="navigateTo('https://matrix.to/#/@schnow265:matrix.org', {
+                        open: {
+                            target: '_blank'
+                        }
+                    })">Matrix</MenubarItem>
                 </MenubarContent>
             </MenubarMenu>
         </Menubar>
