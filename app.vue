@@ -16,4 +16,11 @@ useHead({
 .content {
   padding: 10px
 }
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 </style>

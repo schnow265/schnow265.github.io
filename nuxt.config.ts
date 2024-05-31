@@ -2,12 +2,8 @@
 export default defineNuxtConfig({
   devtools: {
     enabled: true,
-
-    timeline: {
-      enabled: true,
-    },
   },
-  modules: ["@nuxt/content", "@nuxt/ui", "@nuxt/fonts"],
+  modules: ["@nuxt/content", "@nuxt/ui", "@nuxt/fonts", "shadcn-nuxt"],
   link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
   typescript: { strict: false },
 });
