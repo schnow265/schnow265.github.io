@@ -1,5 +1,5 @@
 <template>
   <section>
-    <p>This page will be displayed at the /about route.</p>
+    <p>Made by schnow265, with a bit of pain.</p>
   </section>
 </template>

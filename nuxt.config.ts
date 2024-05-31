@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  modules: ["@nuxt/content", "@nuxt/ui"]
-})
+  devtools: {
+    enabled: true,
+
+    timeline: {
+      enabled: true,
+    },
+  },
+  modules: ["@nuxt/content", "@nuxt/ui", "@pinia/nuxt", "@nuxt/fonts"],
+  link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
+  typescript: { strict: false },
+});
