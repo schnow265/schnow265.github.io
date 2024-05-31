@@ -4,7 +4,7 @@
             <img src="/favicon.ico">
         </div>
         <div class="welcome">
-            <h1 class="text-3xl ">Hello there!</h1>
+            <h1 class="text-3xl">Hello there!</h1>
             <p>I am an Austrian developer with a passion for coding. I have experience with various programming
                 languages
                 such as:</p>
