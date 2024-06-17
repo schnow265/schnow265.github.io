@@ -40,6 +40,19 @@ import {
             </MenubarMenu>
 
             <MenubarMenu>
+                <MenubarTrigger>Projects</MenubarTrigger>
+                <MenubarContent>
+                    <MenubarItem>Projects</MenubarItem>
+                    <MenubarSeparator></MenubarSeparator>
+                    <MenubarItem @click="navigateTo('https://schnow265.github.io/booksAPI', {
+                        open: {
+                            target: '_self',
+                        }
+                    })">BooksAPI Docs</MenubarItem>
+                </MenubarContent>
+            </MenubarMenu>
+
+            <MenubarMenu>
                 <MenubarTrigger>Blog</MenubarTrigger>
                 <MenubarContent>
                     <MenubarItem @click="navigateTo('/blog')">Blog</MenubarItem>
