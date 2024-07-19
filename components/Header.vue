@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheMenu from './TheMenu.vue';
+import TheMenu from "./TheMenu.vue";
 </script>
 
 <template>
-    <div id="header">
-        <TheMenu></TheMenu>
-    </div>
+  <div id="header">
+    <TheMenu></TheMenu>
+  </div>
 </template>

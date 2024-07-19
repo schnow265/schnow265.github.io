@@ -1,4 +1,4 @@
-const animate = require("tailwindcss-animate")
+const animate = require("tailwindcss-animate");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -8,21 +8,22 @@ module.exports = {
 
   theme: {
     colors: {
-      'blue': '#1fb6ff',
-      'purple': '#7e5bef',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'yellow': '#ffc82c',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
-      'systemd-green': '#30d475',
-      'systemd-black': '#201a26'
+      blue: "#1fb6ff",
+      purple: "#7e5bef",
+      pink: "#ff49db",
+      orange: "#ff7849",
+      green: "#13ce66",
+      yellow: "#ffc82c",
+      "gray-dark": "#273444",
+      gray: "#8492a6",
+      "gray-light": "#d3dce6",
+      "systemd-green": "#30d475",
+      "systemd-black": "#201a26",
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      sans: ["Graphik", "sans-serif"],
+      serif: ["Merriweather", "serif"],
+      monoscape: ["IBM Plex", "monoscape"],
     },
     container: {
       center: true,
@@ -84,10 +85,10 @@ module.exports = {
         },
         "collapsible-down": {
           from: { height: 0 },
-          to: { height: 'var(--radix-collapsible-content-height)' },
+          to: { height: "var(--radix-collapsible-content-height)" },
         },
         "collapsible-up": {
-          from: { height: 'var(--radix-collapsible-content-height)' },
+          from: { height: "var(--radix-collapsible-content-height)" },
           to: { height: 0 },
         },
       },
@@ -99,5 +100,5 @@ module.exports = {
       },
     },
   },
-  plugins: [animate],
-}
+  plugins: [animate, require("tailwind-nord")],
+};

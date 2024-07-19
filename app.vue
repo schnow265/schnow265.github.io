@@ -8,13 +8,13 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'schnow265',
-})
+  title: "schnow265",
+});
 </script>
 
 <style>
 .content {
-  padding: 10px
+  padding: 10px;
 }
 
 body {
