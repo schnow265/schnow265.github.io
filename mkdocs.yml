@@ -1,4 +1,10 @@
 site_name: schnow265
 site_url: https://schnow265.github.io
+
 theme:
   name: material
+
+plugins:
+  - blog
+    blog_dir: .
+
