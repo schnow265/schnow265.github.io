@@ -2,7 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - maser 
+      - master 
 permissions:
   contents: write
 jobs:
