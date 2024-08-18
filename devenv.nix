@@ -2,21 +2,21 @@
 
 {
   # https://devenv.sh/basics/
-  env.GREET = "devenv";
+  env.GREET = "devenv-schnow265.github.io";
 
   # https://devenv.sh/packages/
   packages = [ 
     pkgs.git
 
     pkgs.python311Packages.mkdocs-material
-    #pkgs.python311Packages.mkdocs-rss-plugin
+#    pkgs.python311Packages.mkdocs-rss-plugin
   ];
 
   # https://devenv.sh/languages/
   # languages.rust.enable = true;
 
   # https://devenv.sh/processes/
-  # processes.cargo-watch.exec = "cargo-watch";
+  processes.mkdocs.exec = "mkdocs serve";
 
   # https://devenv.sh/services/
   # services.postgres.enable = true;
@@ -26,8 +26,12 @@
     echo hello from $GREET
   '';
 
+  scripts.serve.exec = ''
+    mkdocs serve
+  '';
+
   enterShell = ''
-    hello
+    alias cls=clear
     git --version
   '';
 
