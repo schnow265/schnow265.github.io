@@ -32,7 +32,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/schnow265
       name: schnow265's GitHub Profile
-    - icon: fontaewsome/network-wired
+    - icon: fontaewsome/coding/network-wired
       link: https://schnow265.github.io/upptime-monitor
       name: Status Monitor
 
