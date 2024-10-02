@@ -16,10 +16,14 @@ plugins:
   - glightbox
   - blog:
       format: "(%Y-%m-%d)"
+  - mktemplate
 
 markdown_extensions:
+  - attr_list
   - toc:
         permalink: "#"
+        permalink_title: "Permanent Link directly to this section"
+  - tables
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
