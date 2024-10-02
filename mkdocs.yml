@@ -2,42 +2,28 @@ site_name: schnow265
 site_url: https://schnow265.github.io
 
 theme:
-  name: material
-  logo: assets/snowflake.png
-  favicon: assets/snowflake.png
-  features:
-    - search.suggest
-    - navigation.instant
-    - navigation.instant.progress
-    - header.autohide
-  palette:
-    scheme: slate
-    primary: teal
-    accent: teal
+  name: terminal
+  custom_dir: overrides
+  palette: dark
+  hide:
+    - revision_date
+    - revision_history
 
 plugins:
-  - blog
   - search
+  - plotly
+  - drawio-exporter
+  - glightbox
+  - blog:
+      format: "(%Y-%m-%d)"
 
-extra:
-  generator: false
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/schnow265
-      name: schnow265's GitHub Profile
-    - icon: material/network-pos
-      link: https://schnow265.github.io/upptime-monitor
-      name: Status Monitor
-
-copyright: Copyright &copy; 2024 schnow265
-
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: plotly
+          class: mkdocs-plotly
+          format: !!python/name:mkdocs_plotly_plugin.fences.fence_plotly

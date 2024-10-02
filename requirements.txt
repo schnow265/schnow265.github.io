@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-terminal
+mkdocs-blog-plugin
+mkdocs-plotly-plugin
+mkdocs-drawio-exporter
+mkdocs-glightbox
