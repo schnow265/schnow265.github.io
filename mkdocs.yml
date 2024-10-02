@@ -18,10 +18,15 @@ plugins:
       format: "(%Y-%m-%d)"
 
 markdown_extensions:
+  - toc:
+        permalink: "#"
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path:
+        - snippets
+
   - pymdownx.superfences:
       custom_fences:
         - name: plotly
