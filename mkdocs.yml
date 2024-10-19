@@ -12,7 +12,8 @@ theme:
 plugins:
   - search
   - plotly
-  - drawio-exporter
+  - drawio:
+      viewer_js: "https://viewer.diagrams.net/js/viewer-static.min.js"
   - glightbox
   - blog:
       format: "(%Y-%m-%d)"
@@ -29,10 +30,15 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.snippets:
       base_path:
-        - snippets
+        - templates
 
   - pymdownx.superfences:
       custom_fences:
         - name: plotly
           class: mkdocs-plotly
           format: !!python/name:mkdocs_plotly_plugin.fences.fence_plotly
+
+extra: 
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@schnow265
