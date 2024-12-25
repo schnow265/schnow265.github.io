@@ -22,8 +22,8 @@ plugins:
 markdown_extensions:
   - attr_list
   - toc:
-        permalink: "#"
-        permalink_title: "Permanent Link directly to this section"
+      permalink: "#"
+      permalink_title: "Permanent Link directly to this section"
   - tables
   - pymdownx.caret
   - pymdownx.mark
@@ -37,8 +37,3 @@ markdown_extensions:
         - name: plotly
           class: mkdocs-plotly
           format: !!python/name:mkdocs_plotly_plugin.fences.fence_plotly
-
-extra: 
-  social:
-    - icon: fontawesome/brands/mastodon
-      link: https://mastodon.social/@schnow265
