@@ -16,9 +16,7 @@ jobs:
           python-version: '3.12'
       
       - name: Install Packages
-        run:
-          - python3 -m pip install --upgrade pip
-          - pip install -r ./requirements.txt
+        run: python3 -m pip install --upgrade pip && pip install -r ./requirements.txt
       
       - name: Deploy Changes
         env:
